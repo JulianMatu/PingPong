@@ -4,10 +4,10 @@ const ctx = cvs.getContext("2d");
 
 //gameplay constants
 const collideMaxAngle = Math.PI/4;
-const computerLevel = 0.3;
-const speedInc = 0.5;
+const computerLevel = 0.1;
+const speedInc = 0.2;
 const speedMax = 20;
-const speedInit = 7;
+const speedInit = 5;
 
 //create the user paddle
 const user = {
